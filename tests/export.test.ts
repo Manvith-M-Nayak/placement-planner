@@ -25,5 +25,5 @@ test("Markdown export includes title, path, range, sections, projects, and notes
 
 test("filenames are safe", () => {
   assert.equal(slugifyFilename("My Backend Roadmap!"), "my-backend-roadmap");
-  assert.equal(slugifyFilename("!!!"), "careerpath-roadmap");
+  assert.equal(slugifyFilename("!!!"), "placement-preparation-planner-roadmap");
 });

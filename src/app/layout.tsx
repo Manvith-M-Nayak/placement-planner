@@ -8,13 +8,13 @@ import { siteUrl } from "@/lib/site";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "CareerPath — B.Tech CSE Career Roadmap Builder",
-    template: "%s · CareerPath",
+    default: "Placement Preparation Planner — B.Tech CSE Career Roadmap Builder",
+    template: "%s · Placement Preparation Planner",
   },
   description:
     "Explore career paths, discover the skills employers expect, and build a customizable learning roadmap from your current semester to Semester 7.",
   openGraph: {
-    title: "CareerPath — B.Tech CSE Career Roadmap Builder",
+    title: "Placement Preparation Planner — B.Tech CSE Career Roadmap Builder",
     description:
       "Detailed, role-specific roadmaps and a semester-wise roadmap builder for B.Tech Computer Science students.",
     type: "website",
@@ -42,7 +42,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <footer className="mt-16 border-t border-slate-200 bg-slate-50 print:hidden">
           <Container className="flex flex-col gap-4 py-8 text-sm text-slate-600 sm:flex-row sm:items-center sm:justify-between">
             <p>
-              <span className="font-semibold text-slate-800">CareerPath</span> — curated roadmaps for B.Tech CSE
+              <span className="font-semibold text-slate-800">Placement Preparation Planner</span> — curated roadmaps for B.Tech CSE
               students. No accounts, no tracking, nothing saved.
             </p>
             <nav aria-label="Footer">

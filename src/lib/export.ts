@@ -28,7 +28,7 @@ export function toExport(
   sections: WorkspaceSection[],
 ): RoadmapExport {
   return {
-    title: title.trim() || "My CareerPath roadmap",
+    title: title.trim() || "My placement roadmap",
     careerPath,
     secondaryCareerPath,
     semesterRange,
@@ -71,7 +71,7 @@ export function toMarkdown(doc: RoadmapExport): string {
       lines.push("### Notes", "", s.notes.trim(), "");
     }
   });
-  lines.push("---", "", "Created with CareerPath — a customizable career roadmap builder. Completing a roadmap does not guarantee a placement.");
+  lines.push("---", "", "Created with Placement Preparation Planner — a customizable career roadmap builder. Completing a roadmap does not guarantee a placement.");
   return lines.join("\n");
 }
 
@@ -81,6 +81,6 @@ export function slugifyFilename(title: string): string {
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/^-+|-+$/g, "")
-      .slice(0, 60) || "careerpath-roadmap"
+      .slice(0, 60) || "placement-preparation-planner-roadmap"
   );
 }

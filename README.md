@@ -1,4 +1,4 @@
-# CareerPath — B.Tech CSE Career Roadmap Builder
+# Placement Preparation Planner — B.Tech CSE Career Roadmap Builder
 
 A static, privacy-respecting website that helps B.Tech Computer Science students explore career
 paths and build a customizable semester-wise roadmap up to the beginning of Semester 7.

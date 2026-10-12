@@ -523,7 +523,7 @@ function ItemList({
 function PrintView({ title, meta, sections }: { title: string; meta: string[]; sections: WorkspaceSection[] }) {
   return (
     <div className="hidden print:block">
-      <h1 className="text-2xl font-bold">{title || "My CareerPath roadmap"}</h1>
+      <h1 className="text-2xl font-bold">{title || "My placement roadmap"}</h1>
       <ul className="mt-2 text-sm">
         {meta.map((m) => (
           <li key={m}>{m}</li>
@@ -557,7 +557,7 @@ function PrintView({ title, meta, sections }: { title: string; meta: string[]; s
           )}
         </section>
       ))}
-      <p className="mt-8 text-xs">Created with CareerPath. Completing a roadmap does not guarantee a placement.</p>
+      <p className="mt-8 text-xs">Created with Placement Preparation Planner. Completing a roadmap does not guarantee a placement.</p>
     </div>
   );
 }

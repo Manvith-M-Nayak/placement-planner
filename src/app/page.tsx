@@ -145,7 +145,7 @@ export default function Home() {
         <Container>
           <SectionHeading
             title="How the roadmap builder works"
-            description="CareerPath shows curated, predefined content based on the choices you make. It does not score you, predict outcomes, or decide what you have already mastered — you choose what is relevant."
+            description="Placement Preparation Planner shows curated, predefined content based on the choices you make. It does not score you, predict outcomes, or decide what you have already mastered — you choose what is relevant."
           />
           <ol className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {steps.map((step, i) => (

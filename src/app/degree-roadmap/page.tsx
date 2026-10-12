@@ -16,7 +16,7 @@ export default function DegreeRoadmapPage() {
       <PageHeader
         eyebrow="Degree Roadmap"
         title="Build your semester-wise roadmap"
-        description="Choose where you are and where you want to go. CareerPath shows the matching predefined roadmap from your current semester to the beginning of Semester 7. You decide what is relevant to you."
+        description="Choose where you are and where you want to go. Placement Preparation Planner shows the matching predefined roadmap from your current semester to the beginning of Semester 7. You decide what is relevant to you."
       />
       <Container className="py-10">
         <Suspense fallback={<p className="text-sm text-slate-500">Loading roadmap builder…</p>}>

@@ -11,7 +11,7 @@ export function SiteHeader() {
           <span className="flex size-8 items-center justify-center rounded-lg bg-indigo-600 text-white">
             <Route className="size-4.5" aria-hidden />
           </span>
-          CareerPath
+          Placement Preparation Planner
         </Link>
         <nav aria-label="Main" className="hidden lg:block">
           <NavLinks className="flex items-center gap-1" />

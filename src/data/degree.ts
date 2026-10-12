@@ -73,7 +73,7 @@ export const semesters: SemesterPlan[] = [
         headline: "Early exposure",
         emphasis: [
           "Keep language fundamentals as the priority",
-          "Read the overview of two career paths on CareerPath",
+          "Read the overview of two career paths on Placement Preparation Planner",
           "Build one small program related to an area you are curious about",
         ],
       },
